@@ -14,7 +14,7 @@ I splitted the training data randomly in train (80%) and validation (20%). The t
 Furthermore I evaluate the generalization of the network for classifying traditional MNIST at the end.
 
 ## Results
-Actually Im focussed on very simple architecture < 500,000 parameter. Remember that architectures like VGG, DenseNet and ResNet have several millions of parameters. If you are interested in further results, you can find them on [Zalando benchmark](https://github.com/zalandoresearch/fashion-mnist#benchmark). If it fits in time, I will evaluate deeper architectures e.g. DenseNet.
+Actually I'm focussed on a very simple architecture with less than 500,000 parameter which could run on CPU with 4GB memory. If you are interested in further results, you can find them on [Zalando benchmark](https://github.com/zalandoresearch/fashion-mnist#benchmark). If it fits in time, I will evaluate architectures e.g. DenseNet.
 
 I'm just using two convolutional layers, batchnorm, dropout and three fully connected layers. For a detailed implementation check the model definition in the [jupyter notebook](https://github.com/cmasch/zalando-fashion-mnist/blob/master/Simple_Convolutional_Neural_Network_Fashion-MNIST.ipynb).<br>
 This is the summary of the current model:<br>
@@ -34,15 +34,15 @@ And a detailed plot of iteration 0:<br>
 <kbd><img src="./models/simple_cnn/train_validation-model_0.png"></kbd>
 
 The model reached 93.43% accuracy and 0.2149 loss on testset.<br>
-Metrics for training: 0.1066 loss / 95.99% accuracy.<br>
-Metrics for validation: 0.1245 loss / 95.64% accuracy.
+Score for training: 0.1066 loss / 95.99% accuracy.<br>
+Score for validation: 0.1245 loss / 95.64% accuracy.
 
 If you like, you can [download](https://github.com/cmasch/zalando-fashion-mnist/tree/master/models/simple_cnn) the saved models/weights and history.
 
 #### MNIST
 I used the same architecture of neural network to train on traditional MNIST. The model reached 99.43% accuracy and 0.0248 loss on testset.<br>
-Metrics for training: 0.078 loss / 99.74% accuracy.<br>
-Metrics for validation: 0.161 loss / 99.61% accuracy.
+Score for training: 0.078 loss / 99.74% accuracy.<br>
+Score for validation: 0.161 loss / 99.61% accuracy.
 
 In the plot below you can track training / validation for MNIST:
 <kbd><img src="./models/simple_cnn/mnist_train-validation.png"></kbd>
