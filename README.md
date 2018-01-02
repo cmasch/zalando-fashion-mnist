@@ -3,6 +3,8 @@ I would like to share my results (93.43% accuracy / avg) on the [fashion-MNIST](
 This dataset is a great option instead of traditional handwritten MNIST.<br>
 Thanks to [Han](https://github.com/hanxiao) and [Kashif](https://github.com/kashif)!
 
+Author: Christopher Masch
+
 ## Requirements
 - [Anaconda](https://www.continuum.io/downloads)
 - [Keras 2.0](https://keras.io/)
@@ -34,15 +36,16 @@ And a detailed plot of iteration 0:<br>
 <kbd><img src="./models/simple_cnn/train_validation-model_0.png"></kbd>
 
 The model reached 93.43% accuracy and 0.2149 loss on testset.<br>
-Score for training: 0.1066 loss / 95.99% accuracy.<br>
-Score for validation: 0.1245 loss / 95.64% accuracy.
+Scores for training: 0.1066 loss / 95.99% accuracy.<br>
+Scores for validation: 0.1245 loss / 95.64% accuracy.
 
 If you like, you can [download](https://github.com/cmasch/zalando-fashion-mnist/tree/master/models/simple_cnn) the saved models/weights and history.
 
 #### MNIST
-I used the same architecture of neural network to train on traditional MNIST. The model reached 99.43% accuracy and 0.0248 loss on testset.<br>
-Score for training: 0.078 loss / 99.74% accuracy.<br>
-Score for validation: 0.161 loss / 99.61% accuracy.
+I used the same architecture of neural network to train on traditional MNIST.<br>
+The model reached 99.43% accuracy and 0.0248 loss on testset.<br>
+Scores for training: 0.078 loss / 99.74% accuracy.<br>
+Scores for validation: 0.161 loss / 99.61% accuracy.
 
 In the plot below you can track training / validation for MNIST:
 <kbd><img src="./models/simple_cnn/mnist_train-validation.png"></kbd>
