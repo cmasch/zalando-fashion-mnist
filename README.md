@@ -1,9 +1,9 @@
 # Image classification on fashion-MNIST
+Author: Christopher Masch
+
 I would like to share my results (93.43% accuracy / avg) on the [fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) dataset. You can find further informations about the dataset on [Zalando Research](https://github.com/zalandoresearch/fashion-mnist) and [Kaggle](https://www.kaggle.com/zalando-research/fashionmnist)
 This dataset is a great option instead of traditional handwritten MNIST.<br>
 Thanks to [Han](https://github.com/hanxiao) and [Kashif](https://github.com/kashif)!
-
-Author: Christopher Masch
 
 ## Requirements
 - [Anaconda](https://www.continuum.io/downloads)
