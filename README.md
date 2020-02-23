@@ -42,8 +42,6 @@ Scores for test: 0.0248 loss / 99.43% accuracy.
 In the plot below you can track training / validation for MNIST:
 <kbd><img src="./images/scnn-mnist-train-validation.png"></kbd>
 
-If you like, you can [download](https://github.com/cmasch/zalando-fashion-mnist/tree/master/models/simple_cnn/mnist) the saved models/weights and history for MNIST.
-
 ### Overview
 
 | Fashion-MNIST<br>test accuracy | Fashion-MNIST<br>train accuracy | Fashion-MNIST<br>validation accuracy | MNIST<br> test accuracy | Add. Settings | Trainable<br>Params |
@@ -51,40 +49,7 @@ If you like, you can [download](https://github.com/cmasch/zalando-fashion-mnist/
 | 93.43% | 95.99% | 95.64% | 99.43% | BatchSize : 250<br> Epochs : 80<br> Data augmentation (2x) | 493,772
 
 ## Requirements
-- [Anaconda](https://www.continuum.io/downloads)
-- [Keras 2.x](https://keras.io/)
-- [OpenCV 3.x](http://opencv.org/)
-- [TensorFlow 1.x](https://www.tensorflow.org/)
-
-## Usage
-Feel free to use this code and models for improving on your own. I would appreciate it if you give any feedback.
-
-The easiest way to use the code examples is to download / clone the whole repository. The only thing that’s missing is the folder `data` with the given subfolder structure for the input images:
-```
-data
-  ├── test
-  |   ├── fashion_mnist
-  |   |   ├── 0
-  |   |   ├── 1
-  |   |   ├── ...
-  |   |
-  |   ├── mnist
-  |   |   ├── 0
-  |   |   ├── 1
-  |   |   ├── ...
-  |
-  ├── train
-  |   ├── fashion_mnist
-  |   |   ├── 0
-  |   |   ├── 1
-  |   |   ├── ...
-  |   |
-  |   ├── mnist
-  |   |   ├── 0
-  |   |   ├── 1
-  |   |   ├── ...
-```
-For getting this structure automatically I wrote a extractor finding in this [jupyter notebook](https://github.com/cmasch/zalando-fashion-mnist/blob/master/Extracting_MNIST.ipynb). This extracts the images of a MNIST IDX file.
+- [TensorFlow 2.x](https://www.tensorflow.org/)
 
 If you have any questions or hints contact me through an [issue](https://github.com/cmasch/zalando-fashion-mnist/issues). Thanks!
 
