@@ -31,8 +31,6 @@ Scores for training: 0.1066 loss / 95.99% accuracy.<br>
 Scores for validation: 0.1245 loss / 95.64% accuracy.<br>
 Scores for test: 0.2149 loss / 93.43% accuracy.
 
-If you like, you can [download](https://github.com/cmasch/zalando-fashion-mnist/tree/master/models/simple_cnn/fashion_mnist) the saved models/weights and history for fashion-MNIST.
-
 #### MNIST
 I used the same architecture of neural network to train on traditional MNIST.<br>
 Scores for training: 0.078 loss / 99.74% accuracy.<br>
@@ -49,7 +47,8 @@ In the plot below you can track training / validation for MNIST:
 | 93.43% | 95.99% | 95.64% | 99.43% | BatchSize : 250<br> Epochs : 80<br> Data augmentation (2x) | 493,772
 
 ## Requirements
-- [TensorFlow 2.x](https://www.tensorflow.org/)
+- TensorFlow 2.x
+- TensorFlow-Datasets
 
 If you have any questions or hints contact me through an [issue](https://github.com/cmasch/zalando-fashion-mnist/issues). Thanks!
 
